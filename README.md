@@ -170,6 +170,14 @@ image = pipe(
 image.save("example.png")
 ```
 
+#### (3) Gradio UI
+Launch a simple web UI for local image generation:
+```bash
+pip install -e .[ui]
+python app.py
+```
+Then open http://localhost:7860 in your browser. The model weights are downloaded on first use.
+
 ## 🔬 Decoupled-DMD: The Acceleration Magic Behind Z-Image
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.22677-b31b1b.svg)](https://arxiv.org/abs/2511.22677)
